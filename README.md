@@ -7,6 +7,9 @@ Provides custom methodes for usbmux ([original repo](https://github.com/luk6xff/
 
 
 
+## Dependencies
+- Python >= 3.9
+- pyserial lib
 ## Important
 
 Mux Connector Api uses Mux Finder to discover and automaticly
@@ -16,7 +19,7 @@ directory. If you want to want to change it, you need to change path in 7th line
 ```sys.path.insert(0, './') ``` 
 
 It points to a directory that contains mux_finder.api
-## Usage/Examples
+## Quick example (check /Examples for better showcase)
 
 ```javascript
 import sys
