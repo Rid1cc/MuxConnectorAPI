@@ -7,7 +7,8 @@ example = mux_connector_api.MuxConnectorApi(port_name="COM5")
 state = mux_connector_api.off_on
 
 print("-----MUX INFO-----")
-print(example.show_inf())
+for line in example.show_inf():
+    print(line)
 print("------------------")
 
 example.change_name("Poject_Ver_1_0")

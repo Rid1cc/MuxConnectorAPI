@@ -3,7 +3,7 @@ sys.path.insert(0, '/API/')
 
 from API import mux_connector_api
 
-right_mux = mux_connector_api.MuxConnectorApi(port_name="COM6")
+right_mux = mux_connector_api.MuxConnectorApi(port_name="COM4")
 left_mux = mux_connector_api.MuxConnectorApi(port_name="COM5")
 
 state = mux_connector_api.off_on
